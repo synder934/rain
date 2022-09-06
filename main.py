@@ -1,11 +1,11 @@
 import pygame as pg
 from random import randint
-vec3 = pg.Vector3
 
 pg.init()
+vec3 = pg.Vector3
 DIM = [1000, 700]
 clock = pg.time.Clock()
-rain = [vec3(randint(0, DIM[0]), randint(0, DIM[1])-DIM[1], randint(0, 20)) for i in range(200)]
+rain = [vec3(randint(0, DIM[0]), randint(0, DIM[1])-DIM[1], randint(0, 20)) for i in range(250)]
 disp = pg.display.set_mode(DIM)
 pg.display.set_caption('rain')
 FPS = 60
