@@ -10,6 +10,7 @@ disp = pg.display.set_mode(DIM)
 pg.display.set_caption('rain')
 FPS = 60
 
+
 running = 1
 while running:
     pg.display.update()
